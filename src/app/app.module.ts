@@ -19,6 +19,9 @@ import { MessagesComponent }    from './messages/messages.component';
 
 import { PLATFORM_ID, APP_ID, Inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { DataService } from './data.service';
+import { HttpModule } from '@angular/http';
+import { DataComponent } from './data/data.component';
 
 
 @NgModule({
@@ -26,6 +29,7 @@ import { isPlatformBrowser } from '@angular/common';
     BrowserModule.withServerTransition({ appId: 'tour-of-heroes' }),
     FormsModule,
     AppRoutingModule,
+    HttpModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
@@ -37,9 +41,10 @@ import { isPlatformBrowser } from '@angular/common';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    DataComponent
   ],
-  providers: [ HeroService, MessageService ],
+  providers: [ HeroService, MessageService, DataService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {
