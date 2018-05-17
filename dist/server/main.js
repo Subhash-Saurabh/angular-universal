@@ -463,7 +463,7 @@ var i4 = __webpack_require__(/*! ../data.service */ "./src/app/data.service.ts")
 var styles_DataComponent = [i0.styles];
 var RenderType_DataComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_DataComponent, data: {} });
 exports.RenderType_DataComponent = RenderType_DataComponent;
-function View_DataComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "]))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
+function View_DataComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" Created by ", " "]))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
 function View_DataComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "ul", [], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_DataComponent_1)), i1.ɵdid(2, 802816, null, 0, i2.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.users; _ck(_v, 2, 0, currVal_0); }, null); }
 exports.View_DataComponent_0 = View_DataComponent_0;
 function View_DataComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-data", [], null, null, null, View_DataComponent_0, RenderType_DataComponent)), i1.ɵdid(1, 114688, null, 0, i3.DataComponent, [i4.DataService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
@@ -1147,7 +1147,7 @@ exports.LAZY_MODULE_MAP = {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/next/Desktop/universal/src/main.server.ts */"./src/main.server.ts");
+module.exports = __webpack_require__(/*! /home/next/Desktop/angular-universal/src/main.server.ts */"./src/main.server.ts");
 
 
 /***/ }),
