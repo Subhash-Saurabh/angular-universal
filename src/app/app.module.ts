@@ -22,6 +22,7 @@ import { isPlatformBrowser } from '@angular/common';
 import { DataService } from './data.service';
 import { HttpModule } from '@angular/http';
 import { DataComponent } from './data/data.component';
+import { VideoComponent } from './video/video.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { DataComponent } from './data/data.component';
     HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent,
-    DataComponent
+    DataComponent,
+    VideoComponent
   ],
   providers: [ HeroService, MessageService, DataService ],
   bootstrap: [ AppComponent ]

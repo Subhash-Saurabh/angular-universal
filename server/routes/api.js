@@ -2,11 +2,16 @@ const express = require('express');
 const router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
+const mongodb = require('mongodb');
+const fs = require('fs');
 
 // Connect
 const connection = (closure) => {
     return MongoClient.connect('mongodb://localhost:27017', (err, client) => {
         var db = client.db('mean');
+
+        var dbNew = client.db('gridfs');
+
         if (err) return console.log(err);
 
         closure(db);

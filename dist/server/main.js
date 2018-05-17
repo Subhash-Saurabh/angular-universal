@@ -152,10 +152,12 @@ var i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
 var i4 = __webpack_require__(/*! ./messages/messages.component.ngfactory */ "./src/app/messages/messages.component.ngfactory.js");
 var i5 = __webpack_require__(/*! ./messages/messages.component */ "./src/app/messages/messages.component.ts");
 var i6 = __webpack_require__(/*! ./message.service */ "./src/app/message.service.ts");
-var i7 = __webpack_require__(/*! ./data/data.component.ngfactory */ "./src/app/data/data.component.ngfactory.js");
-var i8 = __webpack_require__(/*! ./data/data.component */ "./src/app/data/data.component.ts");
-var i9 = __webpack_require__(/*! ./data.service */ "./src/app/data.service.ts");
-var i10 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+var i7 = __webpack_require__(/*! ./video/video.component.ngfactory */ "./src/app/video/video.component.ngfactory.js");
+var i8 = __webpack_require__(/*! ./video/video.component */ "./src/app/video/video.component.ts");
+var i9 = __webpack_require__(/*! ./data/data.component.ngfactory */ "./src/app/data/data.component.ngfactory.js");
+var i10 = __webpack_require__(/*! ./data/data.component */ "./src/app/data/data.component.ts");
+var i11 = __webpack_require__(/*! ./data.service */ "./src/app/data.service.ts");
+var i12 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 var styles_AppComponent = [i0.styles];
 var RenderType_AppComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_AppComponent, data: {} });
 exports.RenderType_AppComponent = RenderType_AppComponent;
@@ -165,11 +167,11 @@ function View_AppComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, n
     } return ad; }, null, null)), i1.ɵdid(4, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Dashboard"])), (_l()(), i1.ɵeld(6, 0, null, null, 2, "a", [["routerLink", "/heroes"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 7).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 4, "app-data", [], null, null, null, i7.View_DataComponent_0, i7.RenderType_DataComponent)), i1.ɵdid(14, 114688, null, 0, i8.DataComponent, [i9.DataService], null, null), (_l()(), i1.ɵted(-1, null, [">"])), (_l()(), i1.ɵeld(16, 0, null, null, 1, "app-data", [], null, null, null, i7.View_DataComponent_0, i7.RenderType_DataComponent)), i1.ɵdid(17, 114688, null, 0, i8.DataComponent, [i9.DataService], null, null)], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); _ck(_v, 17, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
+    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 1, "app-video", [], null, null, null, i7.View_VideoComponent_0, i7.RenderType_VideoComponent)), i1.ɵdid(14, 114688, null, 0, i8.VideoComponent, [], null, null), (_l()(), i1.ɵeld(15, 0, null, null, 1, "app-data", [], null, null, null, i9.View_DataComponent_0, i9.RenderType_DataComponent)), i1.ɵdid(16, 114688, null, 0, i10.DataComponent, [i11.DataService], null, null)], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); _ck(_v, 16, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
 exports.View_AppComponent_0 = View_AppComponent_0;
-function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 49152, null, 0, i10.AppComponent, [], null, null)], null, null); }
+function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 49152, null, 0, i12.AppComponent, [], null, null)], null, null); }
 exports.View_AppComponent_Host_0 = View_AppComponent_Host_0;
-var AppComponentNgFactory = i1.ɵccf("app-root", i10.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+var AppComponentNgFactory = i1.ɵccf("app-root", i12.AppComponent, View_AppComponent_Host_0, {}, {}, []);
 exports.AppComponentNgFactory = AppComponentNgFactory;
 
 
@@ -1117,6 +1119,83 @@ var MessagesComponent = /** @class */ (function () {
     return MessagesComponent;
 }());
 exports.MessagesComponent = MessagesComponent;
+
+
+/***/ }),
+
+/***/ "./src/app/video/video.component.css.shim.ngstyle.js":
+/*!***********************************************************!*\
+  !*** ./src/app/video/video.component.css.shim.ngstyle.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [""];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/video/video.component.ngfactory.js":
+/*!****************************************************!*\
+  !*** ./src/app/video/video.component.ngfactory.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var i0 = __webpack_require__(/*! ./video.component.css.shim.ngstyle */ "./src/app/video/video.component.css.shim.ngstyle.js");
+var i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+var i2 = __webpack_require__(/*! ./video.component */ "./src/app/video/video.component.ts");
+var styles_VideoComponent = [i0.styles];
+var RenderType_VideoComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_VideoComponent, data: {} });
+exports.RenderType_VideoComponent = RenderType_VideoComponent;
+function View_VideoComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "video", [["controls", ""], ["id", "videoPlayer"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "source", [["src", "http://localhost:4000/video"], ["type", "video/mp4"]], null, null, null, null, null))], null, null); }
+exports.View_VideoComponent_0 = View_VideoComponent_0;
+function View_VideoComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-video", [], null, null, null, View_VideoComponent_0, RenderType_VideoComponent)), i1.ɵdid(1, 114688, null, 0, i2.VideoComponent, [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+exports.View_VideoComponent_Host_0 = View_VideoComponent_Host_0;
+var VideoComponentNgFactory = i1.ɵccf("app-video", i2.VideoComponent, View_VideoComponent_Host_0, {}, {}, []);
+exports.VideoComponentNgFactory = VideoComponentNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/video/video.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/video/video.component.ts ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+var VideoComponent = /** @class */ (function () {
+    function VideoComponent() {
+    }
+    VideoComponent.prototype.ngOnInit = function () {
+    };
+    return VideoComponent;
+}());
+exports.VideoComponent = VideoComponent;
 
 
 /***/ }),
