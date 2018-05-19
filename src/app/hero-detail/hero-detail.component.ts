@@ -4,6 +4,8 @@ import { Location } from '@angular/common';
 
 import { Hero }         from '../hero';
 import { HeroService }  from '../hero.service';
+import { VideoService } from '../video.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-hero-detail',
@@ -12,18 +14,20 @@ import { HeroService }  from '../hero.service';
 })
 export class HeroDetailComponent implements OnInit {
   @Input() hero: Hero;
-
+  
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
-    private location: Location
-  ) {}
+    private location: Location,
+    private videoService: VideoService
+  ) { }
 
   ngOnInit(): void {
     this.getHero();
+    this.getVideo();
   }
 
-  getHero(): void {
+  getHero(): void {  
     const id = +this.route.snapshot.paramMap.get('id');
     this.heroService.getHero(id)
       .subscribe(hero => this.hero = hero);
@@ -33,8 +37,15 @@ export class HeroDetailComponent implements OnInit {
     this.location.back();
   }
 
- save(): void {
+  save(): void {
     this.heroService.updateHero(this.hero)
       .subscribe(() => this.goBack());
   }
+
+  private videoUrl: String;
+  getVideo(): void {
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.videoUrl = this.videoService.getVideoUrl(id);
+  }
+
 }

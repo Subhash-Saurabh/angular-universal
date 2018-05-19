@@ -6,6 +6,12 @@
       <input [(ngModel)]="hero.name" placeholder="name"/>
     </label>
   </div>
+  <div *ngIf="videoUrl">
+    <h3> Hero Video </h3>
+    <video id="videoPlayer" controls>
+      <source  [src]="videoUrl"  type="video/mp4">
+    </video>
+  </div>
   <button (click)="goBack()">go back</button>
   <button (click)="save()">save</button>
 </div>

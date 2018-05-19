@@ -22,7 +22,7 @@ import { isPlatformBrowser } from '@angular/common';
 import { DataService } from './data.service';
 import { HttpModule } from '@angular/http';
 import { DataComponent } from './data/data.component';
-import { VideoComponent } from './video/video.component';
+import { VideoService } from './video.service';
 
 
 @NgModule({
@@ -43,10 +43,9 @@ import { VideoComponent } from './video/video.component';
     HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent,
-    DataComponent,
-    VideoComponent
+    DataComponent
   ],
-  providers: [ HeroService, MessageService, DataService ],
+  providers: [ HeroService, MessageService, DataService, VideoService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

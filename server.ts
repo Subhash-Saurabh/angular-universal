@@ -15,6 +15,7 @@ enableProdMode();
 const app = express();
 
 const dataApi = require('./server/routes/api');
+const videoApi = require('./server/routes/video');
 
 const PORT = process.env.PORT || 4000;
 const DIST_FOLDER = join(process.cwd(), 'dist');
@@ -45,39 +46,7 @@ app.use('/api', dataApi);
 */
 
 // Video
-app.get('/video', function(req, res) {
-  const path = '/home/next/Desktop/angular-universal/assets/video.mp4'
-  const stat = fs.statSync(path)
-  const fileSize = stat.size
-  const range = req.headers.range
-
-  console.log(range);
-  if (range) {
-    const parts = range.replace(/bytes=/, "").split("-")
-    console.log(parts);
-    const start = parseInt(parts[0], 10)
-    const end = parts[1] 
-      ? parseInt(parts[1], 10)
-      : fileSize-1
-    const chunksize = (end-start)+1
-    const file = fs.createReadStream(path, {start, end})
-    const head = {
-      'Content-Range': `bytes ${start}-${end}/${fileSize}`,
-      'Accept-Ranges': 'bytes',
-      'Content-Length': chunksize,
-      'Content-Type': 'video/mp4',
-    }
-    res.writeHead(206, head);
-    file.pipe(res);
-  } else {
-    const head = {
-      'Content-Length': fileSize,
-      'Content-Type': 'video/mp4',
-    }
-    res.writeHead(200, head)
-    fs.createReadStream(path).pipe(res)
-  }
-});
+app.use('/video', videoApi);
 
 // Server static files from /browser
 app.get('*.*', express.static(join(DIST_FOLDER, 'browser')));

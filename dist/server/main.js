@@ -152,12 +152,10 @@ var i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
 var i4 = __webpack_require__(/*! ./messages/messages.component.ngfactory */ "./src/app/messages/messages.component.ngfactory.js");
 var i5 = __webpack_require__(/*! ./messages/messages.component */ "./src/app/messages/messages.component.ts");
 var i6 = __webpack_require__(/*! ./message.service */ "./src/app/message.service.ts");
-var i7 = __webpack_require__(/*! ./video/video.component.ngfactory */ "./src/app/video/video.component.ngfactory.js");
-var i8 = __webpack_require__(/*! ./video/video.component */ "./src/app/video/video.component.ts");
-var i9 = __webpack_require__(/*! ./data/data.component.ngfactory */ "./src/app/data/data.component.ngfactory.js");
-var i10 = __webpack_require__(/*! ./data/data.component */ "./src/app/data/data.component.ts");
-var i11 = __webpack_require__(/*! ./data.service */ "./src/app/data.service.ts");
-var i12 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+var i7 = __webpack_require__(/*! ./data/data.component.ngfactory */ "./src/app/data/data.component.ngfactory.js");
+var i8 = __webpack_require__(/*! ./data/data.component */ "./src/app/data/data.component.ts");
+var i9 = __webpack_require__(/*! ./data.service */ "./src/app/data.service.ts");
+var i10 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 var styles_AppComponent = [i0.styles];
 var RenderType_AppComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_AppComponent, data: {} });
 exports.RenderType_AppComponent = RenderType_AppComponent;
@@ -167,11 +165,11 @@ function View_AppComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, n
     } return ad; }, null, null)), i1.ɵdid(4, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Dashboard"])), (_l()(), i1.ɵeld(6, 0, null, null, 2, "a", [["routerLink", "/heroes"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 7).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 1, "app-video", [], null, null, null, i7.View_VideoComponent_0, i7.RenderType_VideoComponent)), i1.ɵdid(14, 114688, null, 0, i8.VideoComponent, [], null, null), (_l()(), i1.ɵeld(15, 0, null, null, 1, "app-data", [], null, null, null, i9.View_DataComponent_0, i9.RenderType_DataComponent)), i1.ɵdid(16, 114688, null, 0, i10.DataComponent, [i11.DataService], null, null)], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); _ck(_v, 16, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
+    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 1, "app-data", [], null, null, null, i7.View_DataComponent_0, i7.RenderType_DataComponent)), i1.ɵdid(14, 114688, null, 0, i8.DataComponent, [i9.DataService], null, null)], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
 exports.View_AppComponent_0 = View_AppComponent_0;
-function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 49152, null, 0, i12.AppComponent, [], null, null)], null, null); }
+function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 49152, null, 0, i10.AppComponent, [], null, null)], null, null); }
 exports.View_AppComponent_Host_0 = View_AppComponent_Host_0;
-var AppComponentNgFactory = i1.ɵccf("app-root", i12.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+var AppComponentNgFactory = i1.ɵccf("app-root", i10.AppComponent, View_AppComponent_Host_0, {}, {}, []);
 exports.AppComponentNgFactory = AppComponentNgFactory;
 
 
@@ -262,14 +260,15 @@ var i18 = __webpack_require__(/*! angular-in-memory-web-api/http-client-in-memor
 var i19 = __webpack_require__(/*! ./message.service */ "./src/app/message.service.ts");
 var i20 = __webpack_require__(/*! ./hero.service */ "./src/app/hero.service.ts");
 var i21 = __webpack_require__(/*! ./data.service */ "./src/app/data.service.ts");
-var i22 = __webpack_require__(/*! @angular/animations */ "@angular/animations");
-var i23 = __webpack_require__(/*! @nguniversal/module-map-ngfactory-loader */ "@nguniversal/module-map-ngfactory-loader");
-var i24 = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-var i25 = __webpack_require__(/*! ./hero-detail/hero-detail.component */ "./src/app/hero-detail/hero-detail.component.ts");
-var i26 = __webpack_require__(/*! ./heroes/heroes.component */ "./src/app/heroes/heroes.component.ts");
-var i27 = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-var i28 = __webpack_require__(/*! ./app.module */ "./src/app/app.module.ts");
-var AppServerModuleNgFactory = i0.ɵcmf(i1.AppServerModule, [i2.AppComponent], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.DashboardComponentNgFactory, i4.HeroDetailComponentNgFactory, i5.HeroesComponentNgFactory, i6.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵangular_packages_core_core_l, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i7.NgLocalization, i7.NgLocaleLocalization, [i0.LOCALE_ID, [2, i7.ɵangular_packages_common_common_a]]), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵangular_packages_core_core_j, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵangular_packages_core_core_k, []), i0.ɵmpd(4608, i8.DomSanitizer, i8.ɵangular_packages_platform_browser_platform_browser_e, [i7.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i8.DomSanitizer]), i0.ɵmpd(4608, i8.HAMMER_GESTURE_CONFIG, i8.HammerGestureConfig, []), i0.ɵmpd(5120, i8.EVENT_MANAGER_PLUGINS, function (p0_0, p0_1, p1_0, p2_0, p2_1, p2_2) { return [new i8.ɵDomEventsPlugin(p0_0, p0_1), new i8.ɵKeyEventsPlugin(p1_0), new i8.ɵHammerGesturesPlugin(p2_0, p2_1, p2_2)]; }, [i7.DOCUMENT, i0.NgZone, i7.DOCUMENT, i7.DOCUMENT, i8.HAMMER_GESTURE_CONFIG, i0.ɵConsole]), i0.ɵmpd(4608, i8.EventManager, i8.EventManager, [i8.EVENT_MANAGER_PLUGINS, i0.NgZone]), i0.ɵmpd(135680, i8.ɵDomSharedStylesHost, i8.ɵDomSharedStylesHost, [i7.DOCUMENT]), i0.ɵmpd(4608, i8.ɵDomRendererFactory2, i8.ɵDomRendererFactory2, [i8.EventManager, i8.ɵDomSharedStylesHost]), i0.ɵmpd(4608, i9.ɵangular_packages_platform_server_platform_server_c, i9.ɵangular_packages_platform_server_platform_server_c, [i8.DOCUMENT, [2, i8.ɵTRANSITION_ID]]), i0.ɵmpd(6144, i8.ɵSharedStylesHost, null, [i9.ɵangular_packages_platform_server_platform_server_c]), i0.ɵmpd(4608, i9.ɵServerRendererFactory2, i9.ɵServerRendererFactory2, [i0.NgZone, i8.DOCUMENT, i8.ɵSharedStylesHost]), i0.ɵmpd(4608, i10.AnimationDriver, i10.ɵNoopAnimationDriver, []), i0.ɵmpd(5120, i10.ɵAnimationStyleNormalizer, i11.ɵangular_packages_platform_browser_animations_animations_c, []), i0.ɵmpd(4608, i10.ɵAnimationEngine, i11.ɵangular_packages_platform_browser_animations_animations_a, [i10.AnimationDriver, i10.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i9.ɵangular_packages_platform_server_platform_server_a, [i9.ɵServerRendererFactory2, i10.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(4352, i0.Testability, null, []), i0.ɵmpd(4608, i8.Meta, i8.Meta, [i7.DOCUMENT]), i0.ɵmpd(4608, i8.Title, i8.Title, [i7.DOCUMENT]), i0.ɵmpd(4608, i12.ɵangular_packages_forms_forms_i, i12.ɵangular_packages_forms_forms_i, []), i0.ɵmpd(5120, i13.ActivatedRoute, i13.ɵangular_packages_router_router_f, [i13.Router]), i0.ɵmpd(4608, i13.NoPreloading, i13.NoPreloading, []), i0.ɵmpd(6144, i13.PreloadingStrategy, null, [i13.NoPreloading]), i0.ɵmpd(135680, i13.RouterPreloader, i13.RouterPreloader, [i13.Router, i0.NgModuleFactoryLoader, i0.Compiler, i0.Injector, i13.PreloadingStrategy]), i0.ɵmpd(4608, i13.PreloadAllModules, i13.PreloadAllModules, []), i0.ɵmpd(5120, i13.ROUTER_INITIALIZER, i13.ɵangular_packages_router_router_i, [i13.ɵangular_packages_router_router_g]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) { return [p0_0]; }, [i13.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i14.BrowserXhr, i9.ɵangular_packages_platform_server_platform_server_d, []), i0.ɵmpd(4608, i14.ResponseOptions, i14.BaseResponseOptions, []), i0.ɵmpd(4608, i14.XSRFStrategy, i9.ɵangular_packages_platform_server_platform_server_e, []), i0.ɵmpd(4608, i14.XHRBackend, i14.XHRBackend, [i14.BrowserXhr, i14.ResponseOptions, i14.XSRFStrategy]), i0.ɵmpd(4608, i14.RequestOptions, i14.BaseRequestOptions, []), i0.ɵmpd(5120, i14.Http, i9.ɵangular_packages_platform_server_platform_server_f, [i14.XHRBackend, i14.RequestOptions]), i0.ɵmpd(4608, i15.HttpXsrfTokenExtractor, i15.ɵangular_packages_common_http_http_h, [i7.DOCUMENT, i0.PLATFORM_ID, i15.ɵangular_packages_common_http_http_f]), i0.ɵmpd(4608, i15.ɵangular_packages_common_http_http_i, i15.ɵangular_packages_common_http_http_i, [i15.HttpXsrfTokenExtractor, i15.ɵangular_packages_common_http_http_g]), i0.ɵmpd(5120, i15.HTTP_INTERCEPTORS, function (p0_0) { return [p0_0]; }, [i15.ɵangular_packages_common_http_http_i]), i0.ɵmpd(4608, i16.InMemoryDbService, i17.InMemoryDataService, []), i0.ɵmpd(4608, i15.XhrFactory, i9.ɵangular_packages_platform_server_platform_server_d, []), i0.ɵmpd(5120, i15.HttpBackend, i18.httpClientInMemBackendServiceFactory, [i16.InMemoryDbService, i16.InMemoryBackendConfig, i15.XhrFactory]), i0.ɵmpd(5120, i15.HttpHandler, i9.ɵangular_packages_platform_server_platform_server_g, [i15.HttpBackend, [2, i15.HTTP_INTERCEPTORS]]), i0.ɵmpd(4608, i15.HttpClient, i15.HttpClient, [i15.HttpHandler]), i0.ɵmpd(4608, i15.HttpXhrBackend, i15.HttpXhrBackend, [i15.XhrFactory]), i0.ɵmpd(4608, i15.ɵangular_packages_common_http_http_e, i15.ɵangular_packages_common_http_http_e, []), i0.ɵmpd(4608, i19.MessageService, i19.MessageService, []), i0.ɵmpd(4608, i20.HeroService, i20.HeroService, [i15.HttpClient, i19.MessageService, [2, i7.APP_BASE_HREF]]), i0.ɵmpd(4608, i21.DataService, i21.DataService, [i14.Http]), i0.ɵmpd(4608, i22.AnimationBuilder, i11.ɵBrowserAnimationBuilder, [i0.RendererFactory2, i8.DOCUMENT]), i0.ɵmpd(1073742336, i7.CommonModule, i7.CommonModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i8.ɵangular_packages_platform_browser_platform_browser_a, []), i0.ɵmpd(1024, i0.NgProbeToken, function () { return [i13.ɵangular_packages_router_router_b()]; }, []), i0.ɵmpd(512, i13.ɵangular_packages_router_router_g, i13.ɵangular_packages_router_router_g, [i0.Injector]), i0.ɵmpd(256, i0.APP_ID, "tour-of-heroes", []), i0.ɵmpd(2048, i8.ɵTRANSITION_ID, null, [i0.APP_ID]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p1_0, p2_0, p2_1, p2_2) { return [i8.ɵangular_packages_platform_browser_platform_browser_h(p0_0), i13.ɵangular_packages_router_router_h(p1_0), i8.ɵangular_packages_platform_browser_platform_browser_f(p2_0, p2_1, p2_2)]; }, [[2, i0.NgProbeToken], i13.ɵangular_packages_router_router_g, i8.ɵTRANSITION_ID, i7.DOCUMENT, i0.Injector]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ApplicationRef, i0.ApplicationRef, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver, i0.ApplicationInitStatus]), i0.ɵmpd(1073742336, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]), i0.ɵmpd(1073742336, i8.BrowserModule, i8.BrowserModule, [[3, i8.BrowserModule]]), i0.ɵmpd(1073742336, i12.ɵangular_packages_forms_forms_bb, i12.ɵangular_packages_forms_forms_bb, []), i0.ɵmpd(1073742336, i12.FormsModule, i12.FormsModule, []), i0.ɵmpd(1024, i13.ɵangular_packages_router_router_a, i13.ɵangular_packages_router_router_d, [[3, i13.Router]]), i0.ɵmpd(512, i13.UrlSerializer, i13.DefaultUrlSerializer, []), i0.ɵmpd(512, i13.ChildrenOutletContexts, i13.ChildrenOutletContexts, []), i0.ɵmpd(256, i13.ROUTER_CONFIGURATION, {}, []), i0.ɵmpd(1024, i7.LocationStrategy, i13.ɵangular_packages_router_router_c, [i7.PlatformLocation, [2, i7.APP_BASE_HREF], i13.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i7.Location, i7.Location, [i7.LocationStrategy]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i23.ModuleMapNgFactoryLoader, [i0.Compiler, i23.MODULE_MAP]), i0.ɵmpd(1024, i13.ROUTES, function () { return [[{ path: "", redirectTo: "/dashboard", pathMatch: "full" }, { path: "dashboard", component: i24.DashboardComponent }, { path: "detail/:id", component: i25.HeroDetailComponent }, { path: "heroes", component: i26.HeroesComponent }]]; }, []), i0.ɵmpd(1024, i13.Router, i13.ɵangular_packages_router_router_e, [i0.ApplicationRef, i13.UrlSerializer, i13.ChildrenOutletContexts, i7.Location, i0.Injector, i0.NgModuleFactoryLoader, i0.Compiler, i13.ROUTES, i13.ROUTER_CONFIGURATION, [2, i13.UrlHandlingStrategy], [2, i13.RouteReuseStrategy]]), i0.ɵmpd(1073742336, i13.RouterModule, i13.RouterModule, [[2, i13.ɵangular_packages_router_router_a], [2, i13.Router]]), i0.ɵmpd(1073742336, i27.AppRoutingModule, i27.AppRoutingModule, []), i0.ɵmpd(1073742336, i14.HttpModule, i14.HttpModule, []), i0.ɵmpd(1073742336, i15.HttpClientXsrfModule, i15.HttpClientXsrfModule, []), i0.ɵmpd(1073742336, i15.HttpClientModule, i15.HttpClientModule, []), i0.ɵmpd(1073742336, i18.HttpClientInMemoryWebApiModule, i18.HttpClientInMemoryWebApiModule, []), i0.ɵmpd(1073742336, i28.AppModule, i28.AppModule, [i0.PLATFORM_ID, i0.APP_ID]), i0.ɵmpd(1073742336, i11.NoopAnimationsModule, i11.NoopAnimationsModule, []), i0.ɵmpd(1073742336, i9.ServerModule, i9.ServerModule, []), i0.ɵmpd(1073742336, i23.ModuleMapLoaderModule, i23.ModuleMapLoaderModule, []), i0.ɵmpd(1073742336, i1.AppServerModule, i1.AppServerModule, []), i0.ɵmpd(256, i0.ɵAPP_ROOT, true, []), i0.ɵmpd(256, i15.ɵangular_packages_common_http_http_f, "XSRF-TOKEN", []), i0.ɵmpd(256, i15.ɵangular_packages_common_http_http_g, "X-XSRF-TOKEN", []), i0.ɵmpd(256, i16.InMemoryBackendConfig, { dataEncapsulation: false }, []), i0.ɵmpd(256, i11.ANIMATION_MODULE_TYPE, "NoopAnimations", [])]); });
+var i22 = __webpack_require__(/*! ./video.service */ "./src/app/video.service.ts");
+var i23 = __webpack_require__(/*! @angular/animations */ "@angular/animations");
+var i24 = __webpack_require__(/*! @nguniversal/module-map-ngfactory-loader */ "@nguniversal/module-map-ngfactory-loader");
+var i25 = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+var i26 = __webpack_require__(/*! ./hero-detail/hero-detail.component */ "./src/app/hero-detail/hero-detail.component.ts");
+var i27 = __webpack_require__(/*! ./heroes/heroes.component */ "./src/app/heroes/heroes.component.ts");
+var i28 = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+var i29 = __webpack_require__(/*! ./app.module */ "./src/app/app.module.ts");
+var AppServerModuleNgFactory = i0.ɵcmf(i1.AppServerModule, [i2.AppComponent], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.DashboardComponentNgFactory, i4.HeroDetailComponentNgFactory, i5.HeroesComponentNgFactory, i6.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵangular_packages_core_core_l, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i7.NgLocalization, i7.NgLocaleLocalization, [i0.LOCALE_ID, [2, i7.ɵangular_packages_common_common_a]]), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵangular_packages_core_core_j, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵangular_packages_core_core_k, []), i0.ɵmpd(4608, i8.DomSanitizer, i8.ɵangular_packages_platform_browser_platform_browser_e, [i7.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i8.DomSanitizer]), i0.ɵmpd(4608, i8.HAMMER_GESTURE_CONFIG, i8.HammerGestureConfig, []), i0.ɵmpd(5120, i8.EVENT_MANAGER_PLUGINS, function (p0_0, p0_1, p1_0, p2_0, p2_1, p2_2) { return [new i8.ɵDomEventsPlugin(p0_0, p0_1), new i8.ɵKeyEventsPlugin(p1_0), new i8.ɵHammerGesturesPlugin(p2_0, p2_1, p2_2)]; }, [i7.DOCUMENT, i0.NgZone, i7.DOCUMENT, i7.DOCUMENT, i8.HAMMER_GESTURE_CONFIG, i0.ɵConsole]), i0.ɵmpd(4608, i8.EventManager, i8.EventManager, [i8.EVENT_MANAGER_PLUGINS, i0.NgZone]), i0.ɵmpd(135680, i8.ɵDomSharedStylesHost, i8.ɵDomSharedStylesHost, [i7.DOCUMENT]), i0.ɵmpd(4608, i8.ɵDomRendererFactory2, i8.ɵDomRendererFactory2, [i8.EventManager, i8.ɵDomSharedStylesHost]), i0.ɵmpd(4608, i9.ɵangular_packages_platform_server_platform_server_c, i9.ɵangular_packages_platform_server_platform_server_c, [i8.DOCUMENT, [2, i8.ɵTRANSITION_ID]]), i0.ɵmpd(6144, i8.ɵSharedStylesHost, null, [i9.ɵangular_packages_platform_server_platform_server_c]), i0.ɵmpd(4608, i9.ɵServerRendererFactory2, i9.ɵServerRendererFactory2, [i0.NgZone, i8.DOCUMENT, i8.ɵSharedStylesHost]), i0.ɵmpd(4608, i10.AnimationDriver, i10.ɵNoopAnimationDriver, []), i0.ɵmpd(5120, i10.ɵAnimationStyleNormalizer, i11.ɵangular_packages_platform_browser_animations_animations_c, []), i0.ɵmpd(4608, i10.ɵAnimationEngine, i11.ɵangular_packages_platform_browser_animations_animations_a, [i10.AnimationDriver, i10.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i9.ɵangular_packages_platform_server_platform_server_a, [i9.ɵServerRendererFactory2, i10.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(4352, i0.Testability, null, []), i0.ɵmpd(4608, i8.Meta, i8.Meta, [i7.DOCUMENT]), i0.ɵmpd(4608, i8.Title, i8.Title, [i7.DOCUMENT]), i0.ɵmpd(4608, i12.ɵangular_packages_forms_forms_i, i12.ɵangular_packages_forms_forms_i, []), i0.ɵmpd(5120, i13.ActivatedRoute, i13.ɵangular_packages_router_router_f, [i13.Router]), i0.ɵmpd(4608, i13.NoPreloading, i13.NoPreloading, []), i0.ɵmpd(6144, i13.PreloadingStrategy, null, [i13.NoPreloading]), i0.ɵmpd(135680, i13.RouterPreloader, i13.RouterPreloader, [i13.Router, i0.NgModuleFactoryLoader, i0.Compiler, i0.Injector, i13.PreloadingStrategy]), i0.ɵmpd(4608, i13.PreloadAllModules, i13.PreloadAllModules, []), i0.ɵmpd(5120, i13.ROUTER_INITIALIZER, i13.ɵangular_packages_router_router_i, [i13.ɵangular_packages_router_router_g]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) { return [p0_0]; }, [i13.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i14.BrowserXhr, i9.ɵangular_packages_platform_server_platform_server_d, []), i0.ɵmpd(4608, i14.ResponseOptions, i14.BaseResponseOptions, []), i0.ɵmpd(4608, i14.XSRFStrategy, i9.ɵangular_packages_platform_server_platform_server_e, []), i0.ɵmpd(4608, i14.XHRBackend, i14.XHRBackend, [i14.BrowserXhr, i14.ResponseOptions, i14.XSRFStrategy]), i0.ɵmpd(4608, i14.RequestOptions, i14.BaseRequestOptions, []), i0.ɵmpd(5120, i14.Http, i9.ɵangular_packages_platform_server_platform_server_f, [i14.XHRBackend, i14.RequestOptions]), i0.ɵmpd(4608, i15.HttpXsrfTokenExtractor, i15.ɵangular_packages_common_http_http_h, [i7.DOCUMENT, i0.PLATFORM_ID, i15.ɵangular_packages_common_http_http_f]), i0.ɵmpd(4608, i15.ɵangular_packages_common_http_http_i, i15.ɵangular_packages_common_http_http_i, [i15.HttpXsrfTokenExtractor, i15.ɵangular_packages_common_http_http_g]), i0.ɵmpd(5120, i15.HTTP_INTERCEPTORS, function (p0_0) { return [p0_0]; }, [i15.ɵangular_packages_common_http_http_i]), i0.ɵmpd(4608, i16.InMemoryDbService, i17.InMemoryDataService, []), i0.ɵmpd(4608, i15.XhrFactory, i9.ɵangular_packages_platform_server_platform_server_d, []), i0.ɵmpd(5120, i15.HttpBackend, i18.httpClientInMemBackendServiceFactory, [i16.InMemoryDbService, i16.InMemoryBackendConfig, i15.XhrFactory]), i0.ɵmpd(5120, i15.HttpHandler, i9.ɵangular_packages_platform_server_platform_server_g, [i15.HttpBackend, [2, i15.HTTP_INTERCEPTORS]]), i0.ɵmpd(4608, i15.HttpClient, i15.HttpClient, [i15.HttpHandler]), i0.ɵmpd(4608, i15.HttpXhrBackend, i15.HttpXhrBackend, [i15.XhrFactory]), i0.ɵmpd(4608, i15.ɵangular_packages_common_http_http_e, i15.ɵangular_packages_common_http_http_e, []), i0.ɵmpd(4608, i19.MessageService, i19.MessageService, []), i0.ɵmpd(4608, i20.HeroService, i20.HeroService, [i15.HttpClient, i19.MessageService, [2, i7.APP_BASE_HREF]]), i0.ɵmpd(4608, i21.DataService, i21.DataService, [i14.Http]), i0.ɵmpd(4608, i22.VideoService, i22.VideoService, []), i0.ɵmpd(4608, i23.AnimationBuilder, i11.ɵBrowserAnimationBuilder, [i0.RendererFactory2, i8.DOCUMENT]), i0.ɵmpd(1073742336, i7.CommonModule, i7.CommonModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i8.ɵangular_packages_platform_browser_platform_browser_a, []), i0.ɵmpd(1024, i0.NgProbeToken, function () { return [i13.ɵangular_packages_router_router_b()]; }, []), i0.ɵmpd(512, i13.ɵangular_packages_router_router_g, i13.ɵangular_packages_router_router_g, [i0.Injector]), i0.ɵmpd(256, i0.APP_ID, "tour-of-heroes", []), i0.ɵmpd(2048, i8.ɵTRANSITION_ID, null, [i0.APP_ID]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p1_0, p2_0, p2_1, p2_2) { return [i8.ɵangular_packages_platform_browser_platform_browser_h(p0_0), i13.ɵangular_packages_router_router_h(p1_0), i8.ɵangular_packages_platform_browser_platform_browser_f(p2_0, p2_1, p2_2)]; }, [[2, i0.NgProbeToken], i13.ɵangular_packages_router_router_g, i8.ɵTRANSITION_ID, i7.DOCUMENT, i0.Injector]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ApplicationRef, i0.ApplicationRef, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver, i0.ApplicationInitStatus]), i0.ɵmpd(1073742336, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]), i0.ɵmpd(1073742336, i8.BrowserModule, i8.BrowserModule, [[3, i8.BrowserModule]]), i0.ɵmpd(1073742336, i12.ɵangular_packages_forms_forms_bb, i12.ɵangular_packages_forms_forms_bb, []), i0.ɵmpd(1073742336, i12.FormsModule, i12.FormsModule, []), i0.ɵmpd(1024, i13.ɵangular_packages_router_router_a, i13.ɵangular_packages_router_router_d, [[3, i13.Router]]), i0.ɵmpd(512, i13.UrlSerializer, i13.DefaultUrlSerializer, []), i0.ɵmpd(512, i13.ChildrenOutletContexts, i13.ChildrenOutletContexts, []), i0.ɵmpd(256, i13.ROUTER_CONFIGURATION, {}, []), i0.ɵmpd(1024, i7.LocationStrategy, i13.ɵangular_packages_router_router_c, [i7.PlatformLocation, [2, i7.APP_BASE_HREF], i13.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i7.Location, i7.Location, [i7.LocationStrategy]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i24.ModuleMapNgFactoryLoader, [i0.Compiler, i24.MODULE_MAP]), i0.ɵmpd(1024, i13.ROUTES, function () { return [[{ path: "", redirectTo: "/dashboard", pathMatch: "full" }, { path: "dashboard", component: i25.DashboardComponent }, { path: "detail/:id", component: i26.HeroDetailComponent }, { path: "heroes", component: i27.HeroesComponent }]]; }, []), i0.ɵmpd(1024, i13.Router, i13.ɵangular_packages_router_router_e, [i0.ApplicationRef, i13.UrlSerializer, i13.ChildrenOutletContexts, i7.Location, i0.Injector, i0.NgModuleFactoryLoader, i0.Compiler, i13.ROUTES, i13.ROUTER_CONFIGURATION, [2, i13.UrlHandlingStrategy], [2, i13.RouteReuseStrategy]]), i0.ɵmpd(1073742336, i13.RouterModule, i13.RouterModule, [[2, i13.ɵangular_packages_router_router_a], [2, i13.Router]]), i0.ɵmpd(1073742336, i28.AppRoutingModule, i28.AppRoutingModule, []), i0.ɵmpd(1073742336, i14.HttpModule, i14.HttpModule, []), i0.ɵmpd(1073742336, i15.HttpClientXsrfModule, i15.HttpClientXsrfModule, []), i0.ɵmpd(1073742336, i15.HttpClientModule, i15.HttpClientModule, []), i0.ɵmpd(1073742336, i18.HttpClientInMemoryWebApiModule, i18.HttpClientInMemoryWebApiModule, []), i0.ɵmpd(1073742336, i29.AppModule, i29.AppModule, [i0.PLATFORM_ID, i0.APP_ID]), i0.ɵmpd(1073742336, i11.NoopAnimationsModule, i11.NoopAnimationsModule, []), i0.ɵmpd(1073742336, i9.ServerModule, i9.ServerModule, []), i0.ɵmpd(1073742336, i24.ModuleMapLoaderModule, i24.ModuleMapLoaderModule, []), i0.ɵmpd(1073742336, i1.AppServerModule, i1.AppServerModule, []), i0.ɵmpd(256, i0.ɵAPP_ROOT, true, []), i0.ɵmpd(256, i15.ɵangular_packages_common_http_http_f, "XSRF-TOKEN", []), i0.ɵmpd(256, i15.ɵangular_packages_common_http_http_g, "X-XSRF-TOKEN", []), i0.ɵmpd(256, i16.InMemoryBackendConfig, { dataEncapsulation: false }, []), i0.ɵmpd(256, i11.ANIMATION_MODULE_TYPE, "NoopAnimations", [])]); });
 exports.AppServerModuleNgFactory = AppServerModuleNgFactory;
 
 
@@ -549,10 +548,12 @@ var i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
 var i4 = __webpack_require__(/*! ./hero-detail.component */ "./src/app/hero-detail/hero-detail.component.ts");
 var i5 = __webpack_require__(/*! @angular/router */ "@angular/router");
 var i6 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
+var i7 = __webpack_require__(/*! ../video.service */ "./src/app/video.service.ts");
 var styles_HeroDetailComponent = [i0.styles];
 var RenderType_HeroDetailComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_HeroDetailComponent, data: {} });
 exports.RenderType_HeroDetailComponent = RenderType_HeroDetailComponent;
-function View_HeroDetailComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 20, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "h2", [], null, null, null, null, null)), (_l()(), i1.ɵted(2, null, ["", " Details"])), i1.ɵppd(3, 1), (_l()(), i1.ɵeld(4, 0, null, null, 3, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["id: "])), (_l()(), i1.ɵted(7, null, ["", ""])), (_l()(), i1.ɵeld(8, 0, null, null, 8, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 7, "label", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["name: "])), (_l()(), i1.ɵeld(11, 0, null, null, 5, "input", [["placeholder", "name"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+function View_HeroDetailComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Hero Video "])), (_l()(), i1.ɵeld(3, 0, null, null, 1, "video", [["controls", ""], ["id", "videoPlayer"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "source", [["type", "video/mp4"]], [[8, "src", 4]], null, null, null, null))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.videoUrl; _ck(_v, 4, 0, currVal_0); }); }
+function View_HeroDetailComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 22, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "h2", [], null, null, null, null, null)), (_l()(), i1.ɵted(2, null, ["", " Details"])), i1.ɵppd(3, 1), (_l()(), i1.ɵeld(4, 0, null, null, 3, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["id: "])), (_l()(), i1.ɵted(7, null, ["", ""])), (_l()(), i1.ɵeld(8, 0, null, null, 8, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 7, "label", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["name: "])), (_l()(), i1.ɵeld(11, 0, null, null, 5, "input", [["placeholder", "name"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
         var pd_0 = (i1.ɵnov(_v, 12)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
     } if (("blur" === en)) {
@@ -567,16 +568,16 @@ function View_HeroDetailComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(
     } if (("ngModelChange" === en)) {
         var pd_4 = ((_co.hero.name = $event) !== false);
         ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(12, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i2.DefaultValueAccessor]), i1.ɵdid(14, 671744, null, 0, i2.NgModel, [[8, null], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(16, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null), (_l()(), i1.ɵeld(17, 0, null, null, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, null, null)), i1.ɵdid(12, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i2.DefaultValueAccessor]), i1.ɵdid(14, 671744, null, 0, i2.NgModel, [[8, null], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(16, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_HeroDetailComponent_2)), i1.ɵdid(18, 16384, null, 0, i3.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(19, 0, null, null, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.goBack() !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, ["go back"])), (_l()(), i1.ɵeld(19, 0, null, null, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, ["go back"])), (_l()(), i1.ɵeld(21, 0, null, null, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.save() !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, ["save"]))], function (_ck, _v) { var _co = _v.component; var currVal_9 = _co.hero.name; _ck(_v, 14, 0, currVal_9); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵunv(_v, 2, 0, _ck(_v, 3, 0, i1.ɵnov(_v.parent, 0), _co.hero.name)); _ck(_v, 2, 0, currVal_0); var currVal_1 = _co.hero.id; _ck(_v, 7, 0, currVal_1); var currVal_2 = i1.ɵnov(_v, 16).ngClassUntouched; var currVal_3 = i1.ɵnov(_v, 16).ngClassTouched; var currVal_4 = i1.ɵnov(_v, 16).ngClassPristine; var currVal_5 = i1.ɵnov(_v, 16).ngClassDirty; var currVal_6 = i1.ɵnov(_v, 16).ngClassValid; var currVal_7 = i1.ɵnov(_v, 16).ngClassInvalid; var currVal_8 = i1.ɵnov(_v, 16).ngClassPending; _ck(_v, 11, 0, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); }); }
+    } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, ["save"]))], function (_ck, _v) { var _co = _v.component; var currVal_9 = _co.hero.name; _ck(_v, 14, 0, currVal_9); var currVal_10 = _co.videoUrl; _ck(_v, 18, 0, currVal_10); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵunv(_v, 2, 0, _ck(_v, 3, 0, i1.ɵnov(_v.parent, 0), _co.hero.name)); _ck(_v, 2, 0, currVal_0); var currVal_1 = _co.hero.id; _ck(_v, 7, 0, currVal_1); var currVal_2 = i1.ɵnov(_v, 16).ngClassUntouched; var currVal_3 = i1.ɵnov(_v, 16).ngClassTouched; var currVal_4 = i1.ɵnov(_v, 16).ngClassPristine; var currVal_5 = i1.ɵnov(_v, 16).ngClassDirty; var currVal_6 = i1.ɵnov(_v, 16).ngClassValid; var currVal_7 = i1.ɵnov(_v, 16).ngClassInvalid; var currVal_8 = i1.ɵnov(_v, 16).ngClassPending; _ck(_v, 11, 0, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); }); }
 function View_HeroDetailComponent_0(_l) { return i1.ɵvid(0, [i1.ɵpid(0, i3.UpperCasePipe, []), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_HeroDetailComponent_1)), i1.ɵdid(2, 16384, null, 0, i3.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.hero; _ck(_v, 2, 0, currVal_0); }, null); }
 exports.View_HeroDetailComponent_0 = View_HeroDetailComponent_0;
-function View_HeroDetailComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-hero-detail", [], null, null, null, View_HeroDetailComponent_0, RenderType_HeroDetailComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroDetailComponent, [i5.ActivatedRoute, i6.HeroService, i3.Location], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_HeroDetailComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-hero-detail", [], null, null, null, View_HeroDetailComponent_0, RenderType_HeroDetailComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroDetailComponent, [i5.ActivatedRoute, i6.HeroService, i3.Location, i7.VideoService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_HeroDetailComponent_Host_0 = View_HeroDetailComponent_Host_0;
 var HeroDetailComponentNgFactory = i1.ɵccf("app-hero-detail", i4.HeroDetailComponent, View_HeroDetailComponent_Host_0, { hero: "hero" }, {}, []);
 exports.HeroDetailComponentNgFactory = HeroDetailComponentNgFactory;
@@ -599,14 +600,17 @@ var router_1 = __webpack_require__(/*! @angular/router */ "@angular/router");
 var common_1 = __webpack_require__(/*! @angular/common */ "@angular/common");
 var hero_1 = __webpack_require__(/*! ../hero */ "./src/app/hero.ts");
 var hero_service_1 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
+var video_service_1 = __webpack_require__(/*! ../video.service */ "./src/app/video.service.ts");
 var HeroDetailComponent = /** @class */ (function () {
-    function HeroDetailComponent(route, heroService, location) {
+    function HeroDetailComponent(route, heroService, location, videoService) {
         this.route = route;
         this.heroService = heroService;
         this.location = location;
+        this.videoService = videoService;
     }
     HeroDetailComponent.prototype.ngOnInit = function () {
         this.getHero();
+        this.getVideo();
     };
     HeroDetailComponent.prototype.getHero = function () {
         var _this = this;
@@ -621,6 +625,10 @@ var HeroDetailComponent = /** @class */ (function () {
         var _this = this;
         this.heroService.updateHero(this.hero)
             .subscribe(function () { return _this.goBack(); });
+    };
+    HeroDetailComponent.prototype.getVideo = function () {
+        var id = +this.route.snapshot.paramMap.get('id');
+        this.videoUrl = this.videoService.getVideoUrl(id);
     };
     return HeroDetailComponent;
 }());
@@ -1123,79 +1131,26 @@ exports.MessagesComponent = MessagesComponent;
 
 /***/ }),
 
-/***/ "./src/app/video/video.component.css.shim.ngstyle.js":
-/*!***********************************************************!*\
-  !*** ./src/app/video/video.component.css.shim.ngstyle.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [""];
-exports.styles = styles;
-
-
-/***/ }),
-
-/***/ "./src/app/video/video.component.ngfactory.js":
-/*!****************************************************!*\
-  !*** ./src/app/video/video.component.ngfactory.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-var i0 = __webpack_require__(/*! ./video.component.css.shim.ngstyle */ "./src/app/video/video.component.css.shim.ngstyle.js");
-var i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var i2 = __webpack_require__(/*! ./video.component */ "./src/app/video/video.component.ts");
-var styles_VideoComponent = [i0.styles];
-var RenderType_VideoComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_VideoComponent, data: {} });
-exports.RenderType_VideoComponent = RenderType_VideoComponent;
-function View_VideoComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "video", [["controls", ""], ["id", "videoPlayer"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "source", [["src", "http://localhost:4000/video"], ["type", "video/mp4"]], null, null, null, null, null))], null, null); }
-exports.View_VideoComponent_0 = View_VideoComponent_0;
-function View_VideoComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-video", [], null, null, null, View_VideoComponent_0, RenderType_VideoComponent)), i1.ɵdid(1, 114688, null, 0, i2.VideoComponent, [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
-exports.View_VideoComponent_Host_0 = View_VideoComponent_Host_0;
-var VideoComponentNgFactory = i1.ɵccf("app-video", i2.VideoComponent, View_VideoComponent_Host_0, {}, {}, []);
-exports.VideoComponentNgFactory = VideoComponentNgFactory;
-
-
-/***/ }),
-
-/***/ "./src/app/video/video.component.ts":
-/*!******************************************!*\
-  !*** ./src/app/video/video.component.ts ***!
-  \******************************************/
+/***/ "./src/app/video.service.ts":
+/*!**********************************!*\
+  !*** ./src/app/video.service.ts ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var VideoComponent = /** @class */ (function () {
-    function VideoComponent() {
+var VideoService = /** @class */ (function () {
+    function VideoService() {
+        this.url = 'http://localhost:4000/video';
     }
-    VideoComponent.prototype.ngOnInit = function () {
+    VideoService.prototype.getVideoUrl = function (id) {
+        return String(this.url + "/" + id + ".mp4");
     };
-    return VideoComponent;
+    return VideoService;
 }());
-exports.VideoComponent = VideoComponent;
+exports.VideoService = VideoService;
 
 
 /***/ }),
