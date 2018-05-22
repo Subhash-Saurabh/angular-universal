@@ -30,7 +30,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/jquery/dist/jquery.min.js" ]
           },
           "configurations": {
             "production": {
@@ -76,7 +76,7 @@
             "karmaConfig": "./karma.conf.js",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
-            "scripts": [],
+            "scripts": ["./node_modules/jquery/dist/jquery.min.js" ],
             "styles": [
               "src/styles.css"
             ],

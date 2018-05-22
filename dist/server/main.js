@@ -926,7 +926,7 @@ function View_HeroesComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0
         ad = (pd_0 && ad);
     } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, [" add "])), (_l()(), i1.ɵeld(8, 0, null, null, 2, "ul", [["class", "heroes"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_HeroesComponent_1)), i1.ɵdid(10, 802816, null, 0, i3.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.heroes; _ck(_v, 10, 0, currVal_0); }, null); }
 exports.View_HeroesComponent_0 = View_HeroesComponent_0;
-function View_HeroesComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-heroes", [], null, null, null, View_HeroesComponent_0, RenderType_HeroesComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroesComponent, [i5.HeroService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_HeroesComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-heroes", [], null, null, null, View_HeroesComponent_0, RenderType_HeroesComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroesComponent, [i5.HeroService, i1.PLATFORM_ID], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_HeroesComponent_Host_0 = View_HeroesComponent_Host_0;
 var HeroesComponentNgFactory = i1.ɵccf("app-heroes", i4.HeroesComponent, View_HeroesComponent_Host_0, {}, {}, []);
 exports.HeroesComponentNgFactory = HeroesComponentNgFactory;
@@ -946,12 +946,25 @@ exports.HeroesComponentNgFactory = HeroesComponentNgFactory;
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 var hero_service_1 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
+var $ = __webpack_require__(/*! jquery */ "jquery");
+var common_1 = __webpack_require__(/*! @angular/common */ "@angular/common");
 var HeroesComponent = /** @class */ (function () {
-    function HeroesComponent(heroService) {
+    function HeroesComponent(heroService, platformId) {
         this.heroService = heroService;
+        this.platformId = platformId;
+        this.isBrowser = common_1.isPlatformBrowser(this.platformId);
     }
     HeroesComponent.prototype.ngOnInit = function () {
         this.getHeroes();
+        this.changeCss();
+    };
+    HeroesComponent.prototype.changeCss = function () {
+        if (this.isBrowser) {
+            console.log("Executed");
+            $(document).ready(function () {
+                $(".heroes").css({ width: '80em' });
+            });
+        }
     };
     HeroesComponent.prototype.getHeroes = function () {
         var _this = this;
@@ -1146,7 +1159,7 @@ var VideoService = /** @class */ (function () {
         this.url = 'http://localhost:4000/video';
     }
     VideoService.prototype.getVideoUrl = function (id) {
-        return String(this.url + "/" + id + ".mp4");
+        return this.url + "/" + id + ".mp4";
     };
     return VideoService;
 }());
@@ -1337,6 +1350,17 @@ module.exports = require("angular-in-memory-web-api/http-client-in-memory-web-ap
 /***/ (function(module, exports) {
 
 module.exports = require("angular-in-memory-web-api/interfaces");
+
+/***/ }),
+
+/***/ "jquery":
+/*!*************************!*\
+  !*** external "jquery" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("jquery");
 
 /***/ }),
 

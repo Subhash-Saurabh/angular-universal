@@ -3,6 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
+import { PLATFORM_ID, Inject } from '@angular/core';
+import * as $ from 'jquery';
+import { isPlatformBrowser } from '@angular/common';
+
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
@@ -11,12 +15,27 @@ import { HeroService } from '../hero.service';
 export class HeroesComponent implements OnInit {
   heroes: Hero[];
 
-  constructor(private heroService: HeroService) { }
+  private isBrowser : boolean = isPlatformBrowser(this.platformId);
+  
+
+  constructor(private heroService: HeroService,
+              @Inject(PLATFORM_ID) private platformId: Object) {  
+              }
 
   ngOnInit() {
     this.getHeroes();
+    this.changeCss();
   }
 
+  changeCss(): void{
+    if(this.isBrowser){
+      console.log("Executed");
+      $(document).ready(function(){
+        $(".heroes").css({width : '80em'});
+      });
+    }
+  }
+  
   getHeroes(): void {
     this.heroService.getHeroes()
     .subscribe(heroes => this.heroes = heroes);
