@@ -23,7 +23,8 @@ import { DataService } from './data.service';
 import { HttpModule } from '@angular/http';
 import { DataComponent } from './data/data.component';
 import { VideoService } from './video.service';
-
+import { HeroListBasicComponent } from './hero-list-basic/hero-list-basic.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
@@ -32,6 +33,7 @@ import { VideoService } from './video.service';
     AppRoutingModule,
     HttpModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     )
@@ -43,7 +45,8 @@ import { VideoService } from './video.service';
     HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent,
-    DataComponent
+    DataComponent,
+    HeroListBasicComponent
   ],
   providers: [ HeroService, MessageService, DataService, VideoService ],
   bootstrap: [ AppComponent ]

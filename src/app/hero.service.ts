@@ -19,10 +19,19 @@ export class HeroService {
 
   constructor(
     private http: HttpClient,
-    private messageService: MessageService,
+    private messageService: MessageService, 
     @Optional() @Inject(APP_BASE_HREF) origin: string) {
       this.heroesUrl = `${origin}${this.heroesUrl}`;
     }
+
+  toggleState(hero: Hero, heroes: Hero[]): void {
+    hero.state = hero.state === 'active' ? 'inactive' : 'active';
+    heroes.forEach(function(otherHero){
+      if(otherHero != hero){
+        otherHero.state = 'inactive';
+      }
+    }) 
+  }
 
   /** GET heroes from the server */
   getHeroes (): Observable<Hero[]> {

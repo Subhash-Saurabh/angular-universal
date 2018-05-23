@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let hero of heroes">
+    <button [@heroState]="hero.state"
+            (mouseover)="toggleState(hero)">
+    {{hero.name}}
+    </button>
+  </li>
+</ul>  
