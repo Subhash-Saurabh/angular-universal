@@ -25,12 +25,15 @@
                 "glob": "favicon.ico",
                 "input": "src",
                 "output": "/"
-              }
+              },
+              "src/manifest.json"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": ["./node_modules/jquery/dist/jquery.min.js" ]
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -48,7 +51,8 @@
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
                 }
-              ]
+              ],
+              "serviceWorker": true
             }
           }
         },
@@ -76,7 +80,9 @@
             "karmaConfig": "./karma.conf.js",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
-            "scripts": ["./node_modules/jquery/dist/jquery.min.js" ],
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js"
+            ],
             "styles": [
               "src/styles.css"
             ],
@@ -90,7 +96,8 @@
                 "glob": "favicon.ico",
                 "input": "src",
                 "output": "/"
-              }
+              },
+              "src/manifest.json"
             ]
           }
         },
