@@ -25,6 +25,7 @@ export class HeroDetailComponent implements OnInit {
   ngOnInit(): void {
     this.getHero();
     this.getVideo();
+    this.getPoster();
   }
 
   getHero(): void {  
@@ -46,6 +47,11 @@ export class HeroDetailComponent implements OnInit {
   getVideo(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     this.videoUrl = this.videoService.getVideoUrl(id);
+  }
+
+  private posterUrl: String;
+  getPoster(): void {
+    this.posterUrl = this.videoService.getPosterUrl();
   }
 
 }

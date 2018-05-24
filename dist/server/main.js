@@ -556,7 +556,7 @@ var i7 = __webpack_require__(/*! ../video.service */ "./src/app/video.service.ts
 var styles_HeroDetailComponent = [i0.styles];
 var RenderType_HeroDetailComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_HeroDetailComponent, data: {} });
 exports.RenderType_HeroDetailComponent = RenderType_HeroDetailComponent;
-function View_HeroDetailComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Hero Video "])), (_l()(), i1.ɵeld(3, 0, null, null, 1, "video", [["controls", ""], ["id", "videoPlayer"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "source", [["type", "video/mp4"]], [[8, "src", 4]], null, null, null, null))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.videoUrl; _ck(_v, 4, 0, currVal_0); }); }
+function View_HeroDetailComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Hero Video "])), (_l()(), i1.ɵeld(3, 0, null, null, 1, "video", [["controls", ""], ["id", "videoPlayer"], ["preload", "none"]], [[8, "poster", 4]], null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "source", [["type", "video/mp4"]], [[8, "src", 4]], null, null, null, null))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.posterUrl; _ck(_v, 3, 0, currVal_0); var currVal_1 = _co.videoUrl; _ck(_v, 4, 0, currVal_1); }); }
 function View_HeroDetailComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 22, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "h2", [], null, null, null, null, null)), (_l()(), i1.ɵted(2, null, ["", " Details"])), i1.ɵppd(3, 1), (_l()(), i1.ɵeld(4, 0, null, null, 3, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["id: "])), (_l()(), i1.ɵted(7, null, ["", ""])), (_l()(), i1.ɵeld(8, 0, null, null, 8, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 7, "label", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["name: "])), (_l()(), i1.ɵeld(11, 0, null, null, 5, "input", [["placeholder", "name"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
         var pd_0 = (i1.ɵnov(_v, 12)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
@@ -615,6 +615,7 @@ var HeroDetailComponent = /** @class */ (function () {
     HeroDetailComponent.prototype.ngOnInit = function () {
         this.getHero();
         this.getVideo();
+        this.getPoster();
     };
     HeroDetailComponent.prototype.getHero = function () {
         var _this = this;
@@ -633,6 +634,9 @@ var HeroDetailComponent = /** @class */ (function () {
     HeroDetailComponent.prototype.getVideo = function () {
         var id = +this.route.snapshot.paramMap.get('id');
         this.videoUrl = this.videoService.getVideoUrl(id);
+    };
+    HeroDetailComponent.prototype.getPoster = function () {
+        this.posterUrl = this.videoService.getPosterUrl();
     };
     return HeroDetailComponent;
 }());
@@ -1265,10 +1269,14 @@ exports.MessagesComponent = MessagesComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var VideoService = /** @class */ (function () {
     function VideoService() {
-        this.url = 'http://localhost:4000/video';
+        this.videoUrl = 'http://localhost:4000/video';
+        this.posterUrl = 'http://localhost:4000/poster';
     }
     VideoService.prototype.getVideoUrl = function (id) {
-        return this.url + "/" + id + ".mp4";
+        return this.videoUrl + "/" + id + ".mp4";
+    };
+    VideoService.prototype.getPosterUrl = function () {
+        return this.posterUrl + "/poster.png";
     };
     return VideoService;
 }());

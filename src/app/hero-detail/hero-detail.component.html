@@ -8,7 +8,7 @@
   </div>
   <div *ngIf="videoUrl">
     <h3> Hero Video </h3>
-    <video id="videoPlayer" controls>
+    <video id="videoPlayer" controls preload="none" [poster]="posterUrl">
       <source  [src]="videoUrl"  type="video/mp4">
     </video>
   </div>

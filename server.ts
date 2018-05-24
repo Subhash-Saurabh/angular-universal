@@ -20,6 +20,8 @@ const videoApi = require('./server/routes/video');
 const PORT = process.env.PORT || 4000;
 const DIST_FOLDER = join(process.cwd(), 'dist');
 
+const poster = join(process.cwd(), 'assets/poster')
+
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
 const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/server/main');
 
@@ -47,6 +49,8 @@ app.use('/api', dataApi);
 
 // Video
 app.use('/video', videoApi);
+
+app.use('/poster', express.static(poster));
 
 // Server static files from /browser
 app.get('*.*', express.static(join(DIST_FOLDER, 'browser')));
