@@ -405,7 +405,7 @@ var operators_1 = __webpack_require__(/*! rxjs/operators */ "rxjs/operators");
 var DataService = /** @class */ (function () {
     function DataService(http) {
         this.http = http;
-        this.userUrl = 'http://localhost:4000/api/users';
+        this.userUrl = '/api/users';
     }
     DataService.prototype.getUsers = function () {
         var _this = this;
@@ -1185,7 +1185,6 @@ var VideoService = /** @class */ (function () {
         this.posterUrl = "/poster";
     }
     VideoService.prototype.getVideoUrl = function (id) {
-        console.log(this.videoUrl);
         return this.videoUrl + "/" + id + ".mp4";
     };
     VideoService.prototype.getPosterUrl = function () {
