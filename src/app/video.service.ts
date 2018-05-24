@@ -3,8 +3,8 @@ import { Injectable, Inject, Optional } from '@angular/core';
 @Injectable()
 export class VideoService {
 
-  private videoUrl = 'http://localhost:4000/video';
-  private posterUrl = 'http://localhost:4000/poster';
+  private videoUrl = `/video`;
+  private posterUrl = `/poster`;
 
   constructor() {}
   
@@ -15,5 +15,5 @@ export class VideoService {
   getPosterUrl(){
     return `${this.posterUrl}/poster.png` ;
   }
-  
+
 }

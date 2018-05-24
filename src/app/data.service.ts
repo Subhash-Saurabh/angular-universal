@@ -11,7 +11,7 @@ export class DataService {
 
   result: any;
 
-  private userUrl = 'http://localhost:4000/api/users';
+  private userUrl = '/api/users';
 
   constructor(private http: Http) { }
 

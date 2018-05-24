@@ -1181,10 +1181,11 @@ exports.MessagesComponent = MessagesComponent;
 Object.defineProperty(exports, "__esModule", { value: true });
 var VideoService = /** @class */ (function () {
     function VideoService() {
-        this.videoUrl = 'http://localhost:4000/video';
-        this.posterUrl = 'http://localhost:4000/poster';
+        this.videoUrl = "/video";
+        this.posterUrl = "/poster";
     }
     VideoService.prototype.getVideoUrl = function (id) {
+        console.log(this.videoUrl);
         return this.videoUrl + "/" + id + ".mp4";
     };
     VideoService.prototype.getPosterUrl = function () {

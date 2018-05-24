@@ -17,7 +17,9 @@ const app = express();
 const dataApi = require('./server/routes/api');
 const videoApi = require('./server/routes/video');
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOSTNAME || `localhost` ;
+
 const DIST_FOLDER = join(process.cwd(), 'dist');
 
 const poster = join(process.cwd(), 'assets/poster')
