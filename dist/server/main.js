@@ -155,10 +155,7 @@ var i6 = __webpack_require__(/*! ./message.service */ "./src/app/message.service
 var i7 = __webpack_require__(/*! ./hero-list-basic/hero-list-basic.component.ngfactory */ "./src/app/hero-list-basic/hero-list-basic.component.ngfactory.js");
 var i8 = __webpack_require__(/*! ./hero-list-basic/hero-list-basic.component */ "./src/app/hero-list-basic/hero-list-basic.component.ts");
 var i9 = __webpack_require__(/*! ./hero.service */ "./src/app/hero.service.ts");
-var i10 = __webpack_require__(/*! ./data/data.component.ngfactory */ "./src/app/data/data.component.ngfactory.js");
-var i11 = __webpack_require__(/*! ./data/data.component */ "./src/app/data/data.component.ts");
-var i12 = __webpack_require__(/*! ./data.service */ "./src/app/data.service.ts");
-var i13 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+var i10 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 var styles_AppComponent = [i0.styles];
 var RenderType_AppComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_AppComponent, data: {} });
 exports.RenderType_AppComponent = RenderType_AppComponent;
@@ -168,11 +165,11 @@ function View_AppComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, n
     } return ad; }, null, null)), i1.ɵdid(4, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Dashboard"])), (_l()(), i1.ɵeld(6, 0, null, null, 2, "a", [["routerLink", "/heroes"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 7).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 1, "app-hero-list-basic", [], null, null, null, i7.View_HeroListBasicComponent_0, i7.RenderType_HeroListBasicComponent)), i1.ɵdid(14, 114688, null, 0, i8.HeroListBasicComponent, [i9.HeroService], null, null), (_l()(), i1.ɵeld(15, 0, null, null, 1, "app-data", [], null, null, null, i10.View_DataComponent_0, i10.RenderType_DataComponent)), i1.ɵdid(16, 114688, null, 0, i11.DataComponent, [i12.DataService], null, null)], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); _ck(_v, 16, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
+    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 1, "app-hero-list-basic", [], null, null, null, i7.View_HeroListBasicComponent_0, i7.RenderType_HeroListBasicComponent)), i1.ɵdid(14, 114688, null, 0, i8.HeroListBasicComponent, [i9.HeroService], null, null)], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
 exports.View_AppComponent_0 = View_AppComponent_0;
-function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 49152, null, 0, i13.AppComponent, [], null, null)], null, null); }
+function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 49152, null, 0, i10.AppComponent, [], null, null)], null, null); }
 exports.View_AppComponent_Host_0 = View_AppComponent_Host_0;
-var AppComponentNgFactory = i1.ɵccf("app-root", i13.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+var AppComponentNgFactory = i1.ɵccf("app-root", i10.AppComponent, View_AppComponent_Host_0, {}, {}, []);
 exports.AppComponentNgFactory = AppComponentNgFactory;
 
 
@@ -418,91 +415,6 @@ var DataService = /** @class */ (function () {
     return DataService;
 }());
 exports.DataService = DataService;
-
-
-/***/ }),
-
-/***/ "./src/app/data/data.component.css.shim.ngstyle.js":
-/*!*********************************************************!*\
-  !*** ./src/app/data/data.component.css.shim.ngstyle.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [""];
-exports.styles = styles;
-
-
-/***/ }),
-
-/***/ "./src/app/data/data.component.ngfactory.js":
-/*!**************************************************!*\
-  !*** ./src/app/data/data.component.ngfactory.js ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-var i0 = __webpack_require__(/*! ./data.component.css.shim.ngstyle */ "./src/app/data/data.component.css.shim.ngstyle.js");
-var i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var i2 = __webpack_require__(/*! @angular/common */ "@angular/common");
-var i3 = __webpack_require__(/*! ./data.component */ "./src/app/data/data.component.ts");
-var i4 = __webpack_require__(/*! ../data.service */ "./src/app/data.service.ts");
-var styles_DataComponent = [i0.styles];
-var RenderType_DataComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_DataComponent, data: {} });
-exports.RenderType_DataComponent = RenderType_DataComponent;
-function View_DataComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "li", [], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" Created by ", " "]))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
-function View_DataComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "ul", [], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_DataComponent_1)), i1.ɵdid(2, 802816, null, 0, i2.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.users; _ck(_v, 2, 0, currVal_0); }, null); }
-exports.View_DataComponent_0 = View_DataComponent_0;
-function View_DataComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-data", [], null, null, null, View_DataComponent_0, RenderType_DataComponent)), i1.ɵdid(1, 114688, null, 0, i3.DataComponent, [i4.DataService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
-exports.View_DataComponent_Host_0 = View_DataComponent_Host_0;
-var DataComponentNgFactory = i1.ɵccf("app-data", i3.DataComponent, View_DataComponent_Host_0, {}, {}, []);
-exports.DataComponentNgFactory = DataComponentNgFactory;
-
-
-/***/ }),
-
-/***/ "./src/app/data/data.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/data/data.component.ts ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var data_service_1 = __webpack_require__(/*! ../data.service */ "./src/app/data.service.ts");
-var DataComponent = /** @class */ (function () {
-    function DataComponent(dataService) {
-        var _this = this;
-        this.dataService = dataService;
-        this.dataService.getUsers()
-            .subscribe(function (res) { return _this.users = res; });
-    }
-    DataComponent.prototype.ngOnInit = function () {
-    };
-    return DataComponent;
-}());
-exports.DataComponent = DataComponent;
 
 
 /***/ }),
