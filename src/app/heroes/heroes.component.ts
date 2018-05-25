@@ -6,7 +6,7 @@ import { HeroService } from '../hero.service';
 import { PLATFORM_ID, Inject } from '@angular/core';
 import * as $ from 'jquery';
 import { isPlatformBrowser } from '@angular/common';
-import { Title } from '@angular/platform-browser';
+import { Title , Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-heroes',
@@ -21,13 +21,25 @@ export class HeroesComponent implements OnInit {
 
   constructor(private heroService: HeroService,
               @Inject(PLATFORM_ID) private platformId: Object,
-              private titleService: Title) {  
+              private titleService: Title,
+              private metaService: Meta) {  
               }
 
   ngOnInit() {
     this.getHeroes();
     this.changeCss();
-    this.titleService.setTitle('Heroes');
+    this.changeTitle();
+    this.addMetaTags();
+  }
+
+
+  changeTitle(){
+    this.titleService.setTitle('Tour of Heroes DashBoard');
+  }
+  
+  addMetaTags(){
+    this.metaService.addTag({ name: 'heroes', content: 'Heroes list' });
+    this.metaService.addTag({ name: 'random', content: 'random content for improving search ratings'});
   }
 
   changeCss(): void{
@@ -37,9 +49,6 @@ export class HeroesComponent implements OnInit {
         $(".heroes").css({width : '80em'});
       });
     }
-  }
-  changeTitle(){
-
   }
   getHeroes(): void {
     this.heroService.getHeroes()

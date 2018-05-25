@@ -6,7 +6,7 @@ import { Hero }         from '../hero';
 import { HeroService }  from '../hero.service';
 import { VideoService } from '../video.service';
 import { Observable } from 'rxjs';
-import { Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-hero-detail',
@@ -21,7 +21,8 @@ export class HeroDetailComponent implements OnInit {
     private heroService: HeroService,
     private location: Location,
     private videoService: VideoService,
-    private titleService: Title
+    private titleService: Title,
+    private metaService: Meta
   ) { }
 
   ngOnInit(): void {
@@ -35,7 +36,8 @@ export class HeroDetailComponent implements OnInit {
     this.heroService.getHero(id)
       .subscribe(hero => {
         this.hero = hero,
-        this.titleService.setTitle(`${hero.name} details`);
+        this.titleService.setTitle(`${hero.name} details`),
+        this.metaService.addTag({name: `${hero.name}`, content: 'hero details and video'});
       });
   }
 
