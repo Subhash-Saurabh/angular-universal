@@ -6,7 +6,7 @@ const pth = require('path');
 
 router.get('/*', function(req, res) {
     q = url.parse(req.url,false,true)
-    const statpath = '/home/next/Desktop/angular-universal/assets'
+    const statpath = join(process.cwd(), 'assets')
 
     const path = pth.join(statpath,q.pathname)
     
