@@ -1,5 +1,5 @@
 import { NgModule }       from '@angular/core';
-import { BrowserModule }  from '@angular/platform-browser';
+import { BrowserModule, Title }  from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { HttpClientModule }    from '@angular/common/http';
 
@@ -51,7 +51,7 @@ import { environment } from '../environments/environment';
     DataComponent,
     HeroListBasicComponent
   ],
-  providers: [ HeroService, MessageService, DataService, VideoService ],
+  providers: [ HeroService, MessageService, DataService, VideoService, Title ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

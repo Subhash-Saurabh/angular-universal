@@ -6,6 +6,7 @@ import { HeroService } from '../hero.service';
 import { PLATFORM_ID, Inject } from '@angular/core';
 import * as $ from 'jquery';
 import { isPlatformBrowser } from '@angular/common';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-heroes',
@@ -19,12 +20,14 @@ export class HeroesComponent implements OnInit {
   
 
   constructor(private heroService: HeroService,
-              @Inject(PLATFORM_ID) private platformId: Object) {  
+              @Inject(PLATFORM_ID) private platformId: Object,
+              private titleService: Title) {  
               }
 
   ngOnInit() {
     this.getHeroes();
     this.changeCss();
+    this.titleService.setTitle('Heroes');
   }
 
   changeCss(): void{
@@ -35,7 +38,9 @@ export class HeroesComponent implements OnInit {
       });
     }
   }
-  
+  changeTitle(){
+
+  }
   getHeroes(): void {
     this.heroService.getHeroes()
     .subscribe(heroes => this.heroes = heroes);

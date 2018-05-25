@@ -165,7 +165,7 @@ function View_AppComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, n
     } return ad; }, null, null)), i1.ɵdid(4, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Dashboard"])), (_l()(), i1.ɵeld(6, 0, null, null, 2, "a", [["routerLink", "/heroes"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 7).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 1, "app-hero-list-basic", [], null, null, null, i7.View_HeroListBasicComponent_0, i7.RenderType_HeroListBasicComponent)), i1.ɵdid(14, 114688, null, 0, i8.HeroListBasicComponent, [i9.HeroService], null, null)], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
+    } return ad; }, null, null)), i1.ɵdid(7, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["Heroes"])), (_l()(), i1.ɵeld(9, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(10, 212992, null, 0, i2.RouterOutlet, [i2.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵeld(11, 0, null, null, 1, "app-messages", [], null, null, null, i4.View_MessagesComponent_0, i4.RenderType_MessagesComponent)), i1.ɵdid(12, 114688, null, 0, i5.MessagesComponent, [i6.MessageService], null, null), (_l()(), i1.ɵeld(13, 0, null, null, 1, "app-hero-list-basic", [], null, null, null, i7.View_HeroListBasicComponent_0, i7.RenderType_HeroListBasicComponent)), i1.ɵdid(14, 114688, null, 0, i8.HeroListBasicComponent, [i9.HeroService], null, null), (_l()(), i1.ɵeld(15, 0, null, null, 9, "footer", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" References "])), (_l()(), i1.ɵeld(17, 0, null, null, 1, "a", [["href", "https://angular.io/"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Angular.io "])), (_l()(), i1.ɵeld(19, 0, null, null, 1, "a", [["href", "https://universal.angular.io"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Angular universal "])), (_l()(), i1.ɵeld(21, 0, null, null, 1, "a", [["href", "https://alligator.io/angular/"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Alligator.io "])), (_l()(), i1.ɵeld(23, 0, null, null, 1, "a", [["href", "https://www.google.com"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Google "]))], function (_ck, _v) { var currVal_3 = "/dashboard"; _ck(_v, 4, 0, currVal_3); var currVal_6 = "/heroes"; _ck(_v, 7, 0, currVal_6); _ck(_v, 10, 0); _ck(_v, 12, 0); _ck(_v, 14, 0); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.title; _ck(_v, 1, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 4).target; var currVal_2 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_1, currVal_2); var currVal_4 = i1.ɵnov(_v, 7).target; var currVal_5 = i1.ɵnov(_v, 7).href; _ck(_v, 6, 0, currVal_4, currVal_5); }); }
 exports.View_AppComponent_0 = View_AppComponent_0;
 function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 49152, null, 0, i10.AppComponent, [], null, null)], null, null); }
 exports.View_AppComponent_Host_0 = View_AppComponent_Host_0;
@@ -341,6 +341,7 @@ var i4 = __webpack_require__(/*! ../hero-search/hero-search.component.ngfactory 
 var i5 = __webpack_require__(/*! ../hero-search/hero-search.component */ "./src/app/hero-search/hero-search.component.ts");
 var i6 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
 var i7 = __webpack_require__(/*! ./dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+var i8 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
 var styles_DashboardComponent = [i0.styles];
 var RenderType_DashboardComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_DashboardComponent, data: {} });
 exports.RenderType_DashboardComponent = RenderType_DashboardComponent;
@@ -350,7 +351,7 @@ function View_DashboardComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0
     } return ad; }, null, null)), i1.ɵdid(1, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵeld(2, 0, null, null, 2, "div", [["class", "module hero"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 1, "h4", [], null, null, null, null, null)), (_l()(), i1.ɵted(4, null, ["", ""]))], function (_ck, _v) { var currVal_2 = i1.ɵinlineInterpolate(1, "/detail/", _v.context.$implicit.id, ""); _ck(_v, 1, 0, currVal_2); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 1).target; var currVal_1 = i1.ɵnov(_v, 1).href; _ck(_v, 0, 0, currVal_0, currVal_1); var currVal_3 = _v.context.$implicit.name; _ck(_v, 4, 0, currVal_3); }); }
 function View_DashboardComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "h3", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Top Heroes"])), (_l()(), i1.ɵeld(2, 0, null, null, 2, "div", [["class", "grid grid-pad"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_DashboardComponent_1)), i1.ɵdid(4, 802816, null, 0, i3.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(5, 0, null, null, 1, "hero-search", [], null, null, null, i4.View_HeroSearchComponent_0, i4.RenderType_HeroSearchComponent)), i1.ɵdid(6, 114688, null, 0, i5.HeroSearchComponent, [i6.HeroService], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.heroes; _ck(_v, 4, 0, currVal_0); _ck(_v, 6, 0); }, null); }
 exports.View_DashboardComponent_0 = View_DashboardComponent_0;
-function View_DashboardComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-dashboard", [], null, null, null, View_DashboardComponent_0, RenderType_DashboardComponent)), i1.ɵdid(1, 114688, null, 0, i7.DashboardComponent, [i6.HeroService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_DashboardComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-dashboard", [], null, null, null, View_DashboardComponent_0, RenderType_DashboardComponent)), i1.ɵdid(1, 114688, null, 0, i7.DashboardComponent, [i6.HeroService, i8.Title], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_DashboardComponent_Host_0 = View_DashboardComponent_Host_0;
 var DashboardComponentNgFactory = i1.ɵccf("app-dashboard", i7.DashboardComponent, View_DashboardComponent_Host_0, {}, {}, []);
 exports.DashboardComponentNgFactory = DashboardComponentNgFactory;
@@ -370,13 +371,16 @@ exports.DashboardComponentNgFactory = DashboardComponentNgFactory;
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 var hero_service_1 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
+var platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
 var DashboardComponent = /** @class */ (function () {
-    function DashboardComponent(heroService) {
+    function DashboardComponent(heroService, titleService) {
         this.heroService = heroService;
+        this.titleService = titleService;
         this.heroes = [];
     }
     DashboardComponent.prototype.ngOnInit = function () {
         this.getHeroes();
+        this.titleService.setTitle('Tour of Heroes DashBoard');
     };
     DashboardComponent.prototype.getHeroes = function () {
         var _this = this;
@@ -465,6 +469,7 @@ var i4 = __webpack_require__(/*! ./hero-detail.component */ "./src/app/hero-deta
 var i5 = __webpack_require__(/*! @angular/router */ "@angular/router");
 var i6 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
 var i7 = __webpack_require__(/*! ../video.service */ "./src/app/video.service.ts");
+var i8 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
 var styles_HeroDetailComponent = [i0.styles];
 var RenderType_HeroDetailComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_HeroDetailComponent, data: {} });
 exports.RenderType_HeroDetailComponent = RenderType_HeroDetailComponent;
@@ -493,7 +498,7 @@ function View_HeroDetailComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(
     } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, ["save"]))], function (_ck, _v) { var _co = _v.component; var currVal_9 = _co.hero.name; _ck(_v, 14, 0, currVal_9); var currVal_10 = _co.videoUrl; _ck(_v, 18, 0, currVal_10); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵunv(_v, 2, 0, _ck(_v, 3, 0, i1.ɵnov(_v.parent, 0), _co.hero.name)); _ck(_v, 2, 0, currVal_0); var currVal_1 = _co.hero.id; _ck(_v, 7, 0, currVal_1); var currVal_2 = i1.ɵnov(_v, 16).ngClassUntouched; var currVal_3 = i1.ɵnov(_v, 16).ngClassTouched; var currVal_4 = i1.ɵnov(_v, 16).ngClassPristine; var currVal_5 = i1.ɵnov(_v, 16).ngClassDirty; var currVal_6 = i1.ɵnov(_v, 16).ngClassValid; var currVal_7 = i1.ɵnov(_v, 16).ngClassInvalid; var currVal_8 = i1.ɵnov(_v, 16).ngClassPending; _ck(_v, 11, 0, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); }); }
 function View_HeroDetailComponent_0(_l) { return i1.ɵvid(0, [i1.ɵpid(0, i3.UpperCasePipe, []), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_HeroDetailComponent_1)), i1.ɵdid(2, 16384, null, 0, i3.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.hero; _ck(_v, 2, 0, currVal_0); }, null); }
 exports.View_HeroDetailComponent_0 = View_HeroDetailComponent_0;
-function View_HeroDetailComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-hero-detail", [], null, null, null, View_HeroDetailComponent_0, RenderType_HeroDetailComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroDetailComponent, [i5.ActivatedRoute, i6.HeroService, i3.Location, i7.VideoService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_HeroDetailComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-hero-detail", [], null, null, null, View_HeroDetailComponent_0, RenderType_HeroDetailComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroDetailComponent, [i5.ActivatedRoute, i6.HeroService, i3.Location, i7.VideoService, i8.Title], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_HeroDetailComponent_Host_0 = View_HeroDetailComponent_Host_0;
 var HeroDetailComponentNgFactory = i1.ɵccf("app-hero-detail", i4.HeroDetailComponent, View_HeroDetailComponent_Host_0, { hero: "hero" }, {}, []);
 exports.HeroDetailComponentNgFactory = HeroDetailComponentNgFactory;
@@ -517,12 +522,14 @@ var common_1 = __webpack_require__(/*! @angular/common */ "@angular/common");
 var hero_1 = __webpack_require__(/*! ../hero */ "./src/app/hero.ts");
 var hero_service_1 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
 var video_service_1 = __webpack_require__(/*! ../video.service */ "./src/app/video.service.ts");
+var platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
 var HeroDetailComponent = /** @class */ (function () {
-    function HeroDetailComponent(route, heroService, location, videoService) {
+    function HeroDetailComponent(route, heroService, location, videoService, titleService) {
         this.route = route;
         this.heroService = heroService;
         this.location = location;
         this.videoService = videoService;
+        this.titleService = titleService;
     }
     HeroDetailComponent.prototype.ngOnInit = function () {
         this.getHero();
@@ -533,7 +540,10 @@ var HeroDetailComponent = /** @class */ (function () {
         var _this = this;
         var id = +this.route.snapshot.paramMap.get('id');
         this.heroService.getHero(id)
-            .subscribe(function (hero) { return _this.hero = hero; });
+            .subscribe(function (hero) {
+            _this.hero = hero,
+                _this.titleService.setTitle(hero.name + " details");
+        });
     };
     HeroDetailComponent.prototype.goBack = function () {
         this.location.back();
@@ -934,6 +944,7 @@ var i2 = __webpack_require__(/*! @angular/router */ "@angular/router");
 var i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
 var i4 = __webpack_require__(/*! ./heroes.component */ "./src/app/heroes/heroes.component.ts");
 var i5 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
+var i6 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
 var styles_HeroesComponent = [i0.styles];
 var RenderType_HeroesComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_HeroesComponent, data: {} });
 exports.RenderType_HeroesComponent = RenderType_HeroesComponent;
@@ -951,7 +962,7 @@ function View_HeroesComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0
         ad = (pd_0 && ad);
     } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, [" add "])), (_l()(), i1.ɵeld(8, 0, null, null, 2, "ul", [["class", "heroes"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_HeroesComponent_1)), i1.ɵdid(10, 802816, null, 0, i3.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.heroes; _ck(_v, 10, 0, currVal_0); }, null); }
 exports.View_HeroesComponent_0 = View_HeroesComponent_0;
-function View_HeroesComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-heroes", [], null, null, null, View_HeroesComponent_0, RenderType_HeroesComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroesComponent, [i5.HeroService, i1.PLATFORM_ID], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_HeroesComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-heroes", [], null, null, null, View_HeroesComponent_0, RenderType_HeroesComponent)), i1.ɵdid(1, 114688, null, 0, i4.HeroesComponent, [i5.HeroService, i1.PLATFORM_ID, i6.Title], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_HeroesComponent_Host_0 = View_HeroesComponent_Host_0;
 var HeroesComponentNgFactory = i1.ɵccf("app-heroes", i4.HeroesComponent, View_HeroesComponent_Host_0, {}, {}, []);
 exports.HeroesComponentNgFactory = HeroesComponentNgFactory;
@@ -973,15 +984,18 @@ var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 var hero_service_1 = __webpack_require__(/*! ../hero.service */ "./src/app/hero.service.ts");
 var $ = __webpack_require__(/*! jquery */ "jquery");
 var common_1 = __webpack_require__(/*! @angular/common */ "@angular/common");
+var platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
 var HeroesComponent = /** @class */ (function () {
-    function HeroesComponent(heroService, platformId) {
+    function HeroesComponent(heroService, platformId, titleService) {
         this.heroService = heroService;
         this.platformId = platformId;
+        this.titleService = titleService;
         this.isBrowser = common_1.isPlatformBrowser(this.platformId);
     }
     HeroesComponent.prototype.ngOnInit = function () {
         this.getHeroes();
         this.changeCss();
+        this.titleService.setTitle('Heroes');
     };
     HeroesComponent.prototype.changeCss = function () {
         if (this.isBrowser) {
@@ -990,6 +1004,8 @@ var HeroesComponent = /** @class */ (function () {
                 $(".heroes").css({ width: '80em' });
             });
         }
+    };
+    HeroesComponent.prototype.changeTitle = function () {
     };
     HeroesComponent.prototype.getHeroes = function () {
         var _this = this;
