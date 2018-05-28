@@ -33,6 +33,6 @@ export class DashboardComponent implements OnInit {
   
   addMetaTags(){
     this.metaService.addTag({ name: 'dashboard', content: 'Dashboard containing Heroes' });
-    this.metaService.addTag({ name: 'random', content: 'random content for improving search ratings'});
+    this.metaService.addTag({ name: 'Description', content: 'random content for improving search ratings'});
   }
 }

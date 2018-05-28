@@ -37,7 +37,7 @@ export class HeroDetailComponent implements OnInit {
       .subscribe(hero => {
         this.hero = hero,
         this.titleService.setTitle(`${hero.name} details`),
-        this.metaService.addTag({name: `${hero.name}`, content: 'hero details and video'});
+        this.metaService.addTag({name: `description`, content: `${hero.name} hero details and video`});
       });
   }
 

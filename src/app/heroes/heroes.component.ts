@@ -39,12 +39,11 @@ export class HeroesComponent implements OnInit {
   
   addMetaTags(){
     this.metaService.addTag({ name: 'heroes', content: 'Heroes list' });
-    this.metaService.addTag({ name: 'random', content: 'random content for improving search ratings'});
+    this.metaService.addTag({ name: 'description', content: 'random content for improving search ratings'});
   }
 
   changeCss(): void{
     if(this.isBrowser){
-      console.log("Executed");
       $(document).ready(function(){
         $(".heroes").css({width : '80em'});
       });
