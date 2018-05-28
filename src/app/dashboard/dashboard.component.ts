@@ -10,7 +10,8 @@ import { Title, Meta } from '@angular/platform-browser';
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
-
+  h1: String;
+  
   constructor(private heroService: HeroService,
               private titleService: Title,
               private metaService: Meta) { }
@@ -29,6 +30,7 @@ export class DashboardComponent implements OnInit {
 
   changeTitle(){
     this.titleService.setTitle('Tour of Heroes DashBoard');
+    this.h1 = this.titleService.getTitle();
   }
   
   addMetaTags(){

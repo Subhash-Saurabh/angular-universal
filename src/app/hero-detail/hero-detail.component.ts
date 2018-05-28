@@ -15,7 +15,8 @@ import { Title, Meta } from '@angular/platform-browser';
 })
 export class HeroDetailComponent implements OnInit {
   @Input() hero: Hero;
-  
+  h1: String ;
+
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
@@ -37,6 +38,7 @@ export class HeroDetailComponent implements OnInit {
       .subscribe(hero => {
         this.hero = hero,
         this.titleService.setTitle(`${hero.name} details`),
+        this.h1 = `${hero.name} Details`,
         this.metaService.addTag({name: `description`, content: `${hero.name} hero details and video`});
       });
   }

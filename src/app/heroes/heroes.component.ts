@@ -15,6 +15,7 @@ import { Title , Meta } from '@angular/platform-browser';
 })
 export class HeroesComponent implements OnInit {
   heroes: Hero[];
+  h1: String;
 
   private isBrowser : boolean = isPlatformBrowser(this.platformId);
   
@@ -34,7 +35,8 @@ export class HeroesComponent implements OnInit {
 
 
   changeTitle(){
-    this.titleService.setTitle('Tour of Heroes DashBoard');
+    this.titleService.setTitle('Tour of Heroes List');
+    this.h1 = this.titleService.getTitle();
   }
   
   addMetaTags(){
