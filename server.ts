@@ -55,6 +55,11 @@ app.use('/video', videoApi);
 
 app.use('/poster', express.static(poster));
 
+app.route('/sitemap.xml')
+    .get((req,res) => {
+        res.sendFile(join(process.cwd(), 'sitemap.xml'))
+    });
+
 // Server static files from /browser
 app.get('*.*', express.static(join(DIST_FOLDER, 'browser')));
 
